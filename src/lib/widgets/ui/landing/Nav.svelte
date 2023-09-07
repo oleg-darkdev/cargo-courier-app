@@ -197,7 +197,7 @@
 			class="flex w-full items-center justify-end px-[10%] pt-5 text-xl font-bold"
 			on:click={() => (showMenu = !showMenu)}
 		>
-			<img src="/images/closed.svg" alt="close" class="h-7 cursor-pointer" />
+			<img src="" alt="close" class="h-7 cursor-pointer" />
 		</div>
 		<div
 			class="flex h-screen w-full flex-col items-center justify-center gap-[30px] text-[20px] font-normal leading-[29px] sm:gap-[50px] sm:text-lg md:hidden md:flex-row md:gap-[60px]"
