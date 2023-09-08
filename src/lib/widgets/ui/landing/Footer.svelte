@@ -1,7 +1,8 @@
 <script>
 </script>
 
-<div class="relative mt-[92px] w-full rounded-tr-[158px] bg-black pt-[66px]">
+<footer class="relative mt-[92px] w-full rounded-tr-[158px] bg-black pt-[66px]">
+	<a name="contact" />
 	<div
 		class="mx-auto flex w-full max-w-screen-2xl flex-col gap-8 px-5 pb-[76px] sm:justify-between sm:pl-12 sm:pr-12 md:flex-row md:gap-4 lg:pr-[152px]"
 	>
@@ -49,4 +50,4 @@
 			<img src="/images/mapImage.svg" alt="map" />
 		</div>
 	</div>
-</div>
+</footer>
