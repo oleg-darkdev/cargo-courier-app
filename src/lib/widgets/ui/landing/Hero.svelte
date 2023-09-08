@@ -3,7 +3,7 @@
 
 <!-- <div class="mx-auto max-w-screen-2xl"> -->
 <div
-	class="relative mt-10 mb-8 flex flex-col items-center gap-7 px-5 sm:pl-[50px] md:mb-4 md:flex-row md:justify-between md:gap-0 lg:mt-20"
+	class="relative mt-20 mb-8 flex flex-col items-center gap-7 px-5 sm:pl-[50px] md:mb-4 md:flex-row md:justify-between md:gap-0 lg:mt-20"
 >
 	<div class="flex flex-col items-center gap-7 md:items-start">
 		<div
@@ -17,7 +17,7 @@
 				<span class="relative z-10 w-full">
 					Business
 					<span
-						class="absolute bottom-1.5 left-0 -z-[1] h-2 w-full bg-[#FDC221] sm:bottom-2.5 lg:bottom-4 lg:h-5"
+						class="absolute bottom-1.5 left-0 -z-[1] h-2 w-full bg-primary sm:bottom-2.5 lg:bottom-4 lg:h-5"
 					/>
 				</span>
 			</span>
@@ -34,7 +34,7 @@
                   label="GET STARTED"
                 />
                 <button
-        class={`bg-[#331B3B] rounded-[10px] text-[17px] text-white uppercase font-hindVadodara ${class}`}
+        class={`bg-secondary rounded-[10px] text-[17px] text-white uppercase font-hindVadodara ${class}`}
         on:click={on:click}
       >
         {label}
@@ -42,9 +42,9 @@
 		</div>
 	</div>
 	<div>
-		<img scr="/images/home.png" alt="Home" class="h-[362px] lg:h-full" />
+    <!-- h-[362px] -->
+		<img scr="/images/aboutus.png" alt="Home" class="h-[362px] w-[450px] lg:h-full" />
 	</div>
 </div>
 
 <!-- </div> -->
-
