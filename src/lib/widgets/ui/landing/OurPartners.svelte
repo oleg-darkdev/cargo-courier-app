@@ -1,18 +1,16 @@
 <script>
-  const partners = [
+	const partners = [
 		{
 			title: 'Lorem Ipsum',
 			img: '/images/',
 			desc: 'Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.'
 		}
 	];
-
-
 </script>
 
 <div class="relative mt-12 h-[725px] w-full overflow-hidden py-24 md:mt-20 md:h-[636px]">
 	<div
-		class="absolute top-0 right-0 z-10 ml-3 h-full w-full max-w-[1300px] rounded-tl-[137px] bg-[#FFDED4] sm:rounded-tl-[400px]"
+		class="absolute top-0 right-0 z-10 ml-3 h-full w-full max-w-[1300px] rounded-tl-[137px] bg-primary sm:rounded-tl-[400px]"
 	/>
 	<div class="absolute top-0 !z-30 flex h-full w-full flex-col gap-24 py-24 md:py-40">
 		<div class=" mx-auto flex flex-col gap-8 sm:gap-10 md:gap-24">
@@ -28,7 +26,7 @@
 							<span class="relative z-10">
 								Lorem
 								<span
-									class="absolute bottom-1.5 right-0 -z-[1] h-2 w-[104px] bg-[#FDC221] lg:bottom-[9px] lg:w-40"
+									class="absolute bottom-1.5 right-0 -z-[1] h-2 w-[104px] bg-primary lg:bottom-[9px] lg:w-40"
 								/>
 							</span>
 						</span>
