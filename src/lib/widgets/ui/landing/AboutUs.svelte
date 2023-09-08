@@ -8,9 +8,11 @@
 <div
 	class="mt-11 flex w-full flex-col-reverse items-center justify-between gap-16 px-5 sm:mt-0 sm:px-[50px] md:flex-row md:gap-4"
 >
+	<a name="about" />
+
 	<div class="relative">
 		<img
-			src="/images/aboutus.png"
+			src="/images/about.png"
 			class="relative !z-40 h-[278px] sm:h-[462px] md:h-full"
 			alt="about us"
 		/>
@@ -25,7 +27,7 @@
 				<span class="relative z-10 ml-3">
 					Real
 					<span
-						class="absolute bottom-[10px] left-0 -z-[1] h-2 w-full bg-[#FDC221] lg:bottom-[14px]"
+						class="absolute bottom-[10px] left-0 -z-[1] h-2 w-full bg-primary lg:bottom-[14px]"
 					/>
 				</span>
 			</span>
@@ -46,7 +48,7 @@
                 />
 
                 <button
-        class={`bg-[#331B3B] rounded-[10px] text-[17px] text-white uppercase font-hindVadodara ${class}`}
+        class={`bg-secondary rounded-[10px] text-[17px] text-white uppercase font-hindVadodara ${class}`}
         on:click={on:click}
       >
         {label}
