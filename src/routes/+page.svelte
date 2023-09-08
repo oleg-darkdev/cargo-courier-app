@@ -2,14 +2,14 @@
 	import { Nav, Hero, Footer, WhatWeDo, AboutUs, Testimational, OurPartners } from '../lib/widgets';
 </script>
 
-	<Nav />
+<Nav />
 
-	<Hero />
-	<OurPartners />
+<Hero />
+<OurPartners />
 
-	<WhatWeDo />
+<WhatWeDo />
 
-	<AboutUs />
-	<Testimational />
+<AboutUs />
+<Testimational />
 
-	<Footer />
+<Footer />
