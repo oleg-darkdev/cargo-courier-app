@@ -4,7 +4,7 @@
 		{
 			title: 'Bike logistics',
 			img: '/images/',
-			logoBg: 'bg-[#FFDED4]',
+			logoBg: 'bg-secondary',
 			logo: '/images/websiteLogo.svg',
 			desc: [
 				'Cargo Cult Collective develops low-carbon quality bike logistics and fosters short supply chains in Tri-city (Gdańsk, Sopot, Gdynia).'
@@ -13,7 +13,7 @@
 		{
 			title: 'Local, fair and circular',
 			img: '/images/',
-			logoBg: 'bg-[#FFDED4]',
+			logoBg: 'bg-secondary',
 			logo: '/images/websiteLogo.svg',
 			desc: [
 				`Cargo Cult Collective is committed to make Brussels greener by promoting a safe and renewed mobility.`,
@@ -25,23 +25,23 @@
 		{
 			title: 'Business co-op for social economy',
 			img: '/images/',
-			logoBg: 'bg-[#FFDED4]',
+			logoBg: 'bg-secondary',
 			logo: '/images/websiteLogo.svg',
 			desc: [
 				' cares for its bikers-cooperators who are invited to take part into the development of the company. On a fair trade principle, we offer sustainable jobs.'
 			]
-		},
+		}
 		// {
 		// 	title: 'Lorem Ipsum',
 		// 	img: '/images/',
-		// 	logoBg: 'bg-[#FFDED4]',
+		// 	logoBg: 'bg-secondary',
 		// 	logo: '/images/websiteLogo.svg',
 		// 	desc: ['Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.']
 		// },
 		// {
 		// 	title: 'Lorem Ipsum',
 		// 	img: '/images/',
-		// 	logoBg: 'bg-[#FFDED4]',
+		// 	logoBg: 'bg-secondary',
 		// 	logo: '/images/websiteLogo.svg',
 		// 	desc: ['Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.']
 		// }
@@ -49,16 +49,17 @@
 </script>
 
 <div class="relative mt-14 h-[500px] w-full overflow-hidden py-28 sm:h-[650px] md:mt-28">
+  <a name="services"></a>
 	<div
 		class="absolute right-16 top-56 h-96 w-96 rounded-full border-[1px] border-dashed border-[#000000] p-2"
 	/>
 	<div
-		class="absolute top-0 z-10 mr-3 h-[500px] w-full max-w-[1293px] rounded-tr-[137px] bg-[#ECF7FF] sm:h-[578px] sm:rounded-tr-[400px]"
+		class="absolute top-0 z-10 mr-3 h-[500px] w-full max-w-[1293px] rounded-tr-[137px] bg-secondary sm:h-[578px] sm:rounded-tr-[400px]"
 	/>
 	<div class="absolute top-0 !z-30 flex h-full w-full flex-col gap-24 py-24">
 		<div class=" flex flex-col gap-12 sm:gap-16 md:gap-24">
 			<div
-				class="font-hindVadodara mx-auto text-4xl leading-[106.3%] -tracking-[0.01] text-[#331B3B] md:text-5xl"
+				class="font-hindVadodara mx-auto text-4xl leading-[106.3%] -tracking-[0.01] text-primary md:text-5xl"
 			>
 				<h1 class=" self-center text-center font-bold">What We Do</h1>
 				<span class="self-center font-light">
@@ -66,7 +67,7 @@
 					<span class="relative ml-1">
 						Business
 						<span
-							class="absolute bottom-1.5 right-0 -z-[1] h-2 w-[145px] bg-[#FDC221] md:bottom-2 md:h-2.5 md:w-48"
+							class="absolute bottom-1.5 right-0 -z-[1] h-2 w-[145px] bg-white md:bottom-2 md:h-2.5 md:w-48"
 						/>
 					</span>
 				</span>
@@ -120,7 +121,7 @@
 				<div class="dream-agency-bussiness flex justify-center">
 					{#each cardDetail as card}
 						<div
-							class="shadow-3xl mx-1 flex w-full max-w-[308px] flex-col justify-start overflow-hidden rounded-[10px] bg-white p-[18px]"
+							class="shadow-3xl text-secondary mx-1 flex w-full max-w-[308px] flex-col justify-start overflow-hidden rounded-[10px] bg-white p-[18px]"
 						>
 							<!-- -->
 							<div
