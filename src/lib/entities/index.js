@@ -1,7 +1,5 @@
-// import from './ui/';
+import ShopCard from './ui/landing/ShopCard.svelte';
 
 
 
-// export {
-
-// };
+export { ShopCard };

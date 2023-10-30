@@ -5,5 +5,7 @@ import WhatWeDo from './ui/landing/WhatWeDo.svelte';
 import AboutUs from './ui/landing/AboutUs.svelte';
 import Testimational from './ui/landing/Testimational.svelte';
 import OurPartners from './ui/landing/OurPartners.svelte';
+import Ngo from './ui/landing/Ngo.svelte';
+import Shop from './ui/landing/Shop.svelte';
 
-export { Nav, Hero, Footer, WhatWeDo, AboutUs, Testimational, OurPartners };
+export { Nav, Hero, Footer, WhatWeDo, AboutUs, Testimational, Ngo, Shop, OurPartners };
