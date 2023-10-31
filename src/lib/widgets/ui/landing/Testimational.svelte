@@ -15,7 +15,7 @@
 
 <div class="mt-9 flex w-full flex-col items-center justify-center gap-14 px-5 md:mt-[75px]">
 	<div
-		class=" font-hindVadodara w-full text-center text-3xl -tracking-[0.01em] text-[#331B3B] md:text-5xl"
+		class=" font-hindVadodara w-full text-center text-3xl -tracking-[0.01em] text-secondary md:text-5xl"
 	>
 		<h1 class="whitespace-nowrap text-center font-bold leading-[99.8%]">Our Testimonials</h1>
 		<span class="mx-auto mt-1 max-w-sm !text-center font-light md:max-w-xl md:whitespace-nowrap">
@@ -43,11 +43,11 @@
 					>
 						<path
 							d="M35.4128 39.5905L45.4 18.5185V0.409668H24.9856V19.6161H32.7776L24.9856 39.5905H35.4128ZM28.0336 16.5681V3.45927H42.3504V17.8321L33.4816 36.5409H29.4464L37.2352 16.5697H28.0336V16.5681Z"
-							fill="#F44336"
+							fill="#8ad288"
 						/>
 						<path
 							d="M11.0272 39.5905L21.0144 18.5185V0.409668H0.600006V19.6161H8.39361L0.600006 39.5905H11.0272ZM3.64801 16.5681V3.45927H17.9648V17.8321L9.09761 36.5409H5.06241L12.8512 16.5697H3.64801V16.5681Z"
-							fill="#F44336"
+							fill="#8ad288"
 						/>
 					</svg>
 				</div>
@@ -60,7 +60,7 @@
 					<span
 						class="font-hindVadodara flex items-center gap-2 text-base font-semibold leading-[159.8%] tracking-wide"
 					>
-						<span class=" relative bottom-0.5 w-3 border-[2px] border-[#F44336]" />
+						<span class=" relative bottom-0.5 w-3 border-[2px] border-[#8ad288]" />
 						{data.title}
 					</span>
 				</div>
