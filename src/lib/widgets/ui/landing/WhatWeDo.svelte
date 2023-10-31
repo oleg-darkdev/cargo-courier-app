@@ -7,7 +7,7 @@
 			logoBg: 'bg-secondary',
 			logo: '/images/websiteLogo.svg',
 			desc: [
-				'Cargo Cult Collective develops low-carbon quality bike logistics and fosters short supply chains in Tri-city (Gdańsk, Sopot, Gdynia).'
+				'Cargo Courier Collective develops low-carbon quality bike logistics and fosters short supply chains in Tri-city (Gdańsk, Sopot, Gdynia).'
 			]
 		},
 		{
@@ -16,7 +16,7 @@
 			logoBg: 'bg-secondary',
 			logo: '/images/websiteLogo.svg',
 			desc: [
-				`Cargo Cult Collective is committed to make Brussels greener by promoting a safe and renewed mobility.`,
+				`Cargo Courier Collective is committed to make Brussels greener by promoting a safe and renewed mobility.`,
 				`We are optimizing the distribution chain for a fast, efficlient urban last-mile delivery.`
 			]
 		},
@@ -48,8 +48,8 @@
 	];
 </script>
 
-<div class="relative mt-14 h-[500px] w-full overflow-hidden py-28 sm:h-[650px] md:mt-28">
-  <a name="services"></a>
+<div data-aos="fade-down" data-aos-once="false" class="relative mt-14 h-[500px] w-full overflow-hidden py-28 sm:h-[650px] md:mt-28">
+	<a name="bussines" />
 	<div
 		class="absolute right-16 top-56 h-96 w-96 rounded-full border-[1px] border-dashed border-[#000000] p-2"
 	/>
@@ -61,11 +61,11 @@
 			<div
 				class="font-hindVadodara mx-auto text-4xl leading-[106.3%] -tracking-[0.01] text-primary md:text-5xl"
 			>
-				<h1 class=" self-center text-center font-bold">What We Do</h1>
-				<span class="self-center font-light">
-					For Your
-					<span class="relative ml-1">
-						Business
+				<h1 class=" self-center text-center font-bold">Co Oferujemy</h1>
+				<span class="self-center text-white font-light">
+					Dla Waszego
+					<span class="relative ml-1 text-primary font-black">
+						Biznesu
 						<span
 							class="absolute bottom-1.5 right-0 -z-[1] h-2 w-[145px] bg-white md:bottom-2 md:h-2.5 md:w-48"
 						/>
@@ -121,7 +121,7 @@
 				<div class="dream-agency-bussiness flex justify-center">
 					{#each cardDetail as card}
 						<div
-							class="shadow-3xl text-secondary mx-1 flex w-full max-w-[308px] flex-col justify-start overflow-hidden rounded-[10px] bg-white p-[18px]"
+							class="shadow-3xl mx-1 flex w-full max-w-[308px] flex-col justify-start overflow-hidden rounded-[10px] bg-primary p-[18px] text-secondary"
 						>
 							<!-- -->
 							<div

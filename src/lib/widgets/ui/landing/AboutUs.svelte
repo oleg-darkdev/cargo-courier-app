@@ -1,15 +1,19 @@
 <script>
 	const aboutUsData = [
-		"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it make a type specimen book.",
-		"Lorem Ipsum has been the industry's standard dummy text ever since the 1700s, when an unknown printer took a galley of type and scrambled it make a type specimen book."
+		`Projekt rozpoczął się w 2023 roku w Gdańsku, w Polsce. Projekt został założony przez grupę uchodźców politycznych z Białorusi.`,
+
+		`Nasz cel: zmniejszenie śladu węglowego w świecie transportu towarów poprzez oferowanie dostaw towarów na rowerze dla firm i wsparcie organizacji non-profit.`,
+		`Pasjonaci środowiska i mobilności miejskiej postanowili zmienić podejście do transportu towarów. Dążąc do stworzenia bardziej przyjaznego dla środowiska i zrównoważonego systemu dostaw - zdecydowaliśmy się wprowadzić rowery towarowe do infrastruktury miejskiej.`,
+		`Nasza oferta to coś więcej niż tylko transport ciężarowy, zapraszamy do przyłączenia się do ruchu, który łączy środowisko, sprawiedliwość społeczną i elastyczne podejście do biznesu.`,
+		`Zapraszamy do wsparcia naszej inicjatywy i uczynienia naszego świata czystszym i bardziej ekologicznym razem z nami.`
 	];
 </script>
 
-<div
+<a name="about" />
+
+<div data-aos="fade-left"
 	class="mt-11 flex w-full flex-col-reverse items-center justify-between gap-16 px-5 sm:mt-0 sm:px-[50px] md:flex-row md:gap-4"
 >
-	<a name="about" />
-
 	<div class="relative">
 		<img
 			src="/images/about.png"
@@ -19,13 +23,13 @@
 	</div>
 	<div class="flex flex-col items-center justify-start gap-5 md:items-start">
 		<div
-			class="ont-hindVadodara relative flex flex-col text-4xl leading-[106.3%] -tracking-[0.01] text-[#331B3B] md:mt-32 lg:text-5xl"
+			class="ont-hindVadodara relative flex flex-col text-4xl leading-[106.3%] -tracking-[0.01] text-secondary md:mt-32 lg:text-5xl"
 		>
-			<h1 class=" text-center font-bold md:text-left">About Us</h1>
+			<h1 class=" text-center font-bold md:text-left">O nas</h1>
 			<span class="text-4xl font-light lg:text-5xl">
-				Fake or
+				Więcej niż tylko
 				<span class="relative z-10 ml-3">
-					Real
+					Transport
 					<span
 						class="absolute bottom-[10px] left-0 -z-[1] h-2 w-full bg-primary lg:bottom-[14px]"
 					/>
@@ -35,7 +39,7 @@
 		<div class="flex flex-col gap-2">
 			{#each aboutUsData as about}
 				<span
-					class="Light font-hindVadodara mt-[6px] max-w-[515px] text-center text-[15px] font-light leading-[145.3%] tracking-[0.02] md:text-left"
+					class=" font-hindVadodara mt-[6px] max-w-[515px] text-center text-[15px] font-bold leading-[145.3%] tracking-[0.02] text-secondary md:text-left"
 				>
 					{about}
 				</span>
