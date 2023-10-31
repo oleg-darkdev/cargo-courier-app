@@ -17,7 +17,7 @@
 			<div class="mx-5 flex flex-col gap-5">
 				<div class="relative md:absolute md:left-5 md:top-10 lg:left-32">
 					<h1
-						class="font-hindVadodara self-center text-3xl font-bold leading-[106.3%] -tracking-[0.01] text-[#331B3B] lg:text-5xl"
+						class="font-hindVadodara self-center text-3xl font-bold leading-[106.3%] -tracking-[0.01] text-secondary lg:text-5xl"
 					>
 						Our Partners
 						<p />
@@ -33,7 +33,7 @@
 					</h1>
 				</div>
 				<span
-					class="relative w-full max-w-md text-lg font-normal md:absolute md:right-12 md:top-10 xl:max-w-lg"
+					class="relative w-full max-w-md text-lg font-normal text-secondary md:absolute md:right-12 md:top-10 xl:max-w-lg"
 				>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, aperiam facere labore
 					ipsum, vitae impedit temporibus ratione quae laborum itaque harum nihil maiores doloremque
@@ -94,7 +94,7 @@
 								<img scr={card.img} alt="card image" class="h-48 w-full object-cover" />
 							</div>
 							<div class="mt-5 flex justify-between">
-								<span class="text-2xl font-bold text-[#331B3B]">
+								<span class="text-2xl font-bold text-secondary">
 									{card.title}
 								</span>
 								<div
