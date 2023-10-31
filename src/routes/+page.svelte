@@ -1,15 +1,19 @@
 <script>
-	import { Nav, Hero, Footer, WhatWeDo, AboutUs, Testimational, OurPartners } from '../lib/widgets';
+	import { Nav, Hero, Footer, WhatWeDo, Ngo, AboutUs, Testimational, OurPartners, Shop } from '../lib/widgets';
 </script>
 
 <Nav />
 
 <Hero />
-<OurPartners />
+<!-- <OurPartners /> -->
 
 <WhatWeDo />
 
 <AboutUs />
-<Testimational />
+<Ngo />
+
+<Shop />
+
+<!-- <Testimational /> -->
 
 <Footer />
